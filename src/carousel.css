@@ -8,6 +8,16 @@ body {
   color: #5a5a5a;
 }
 
+.cover
+{
+	margin:100px auto;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid cornflowerblue;
+	position: relative;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
