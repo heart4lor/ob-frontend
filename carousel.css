@@ -2,12 +2,15 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html{
+	width: 100%;
+}
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  width: 100%;
 }
-
 .cover
 {
 	margin:100px auto;
@@ -17,7 +20,10 @@ body {
 	border: 1px solid cornflowerblue;
 	position: relative;
 }
-
+img{
+	max-width: 100% !important;
+	height: auto;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
